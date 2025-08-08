@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TrueTarot_API</name>
+    </assembly>
+    <members>
+        <member name="M:TrueTarot_API.Controllers.AuthController.Register(TrueTarot_API.DTOs.Auth.RegisterRequestDto)">
+            <summary>
+            Yeni kullanıcı kaydı
+            </summary>
+        </member>
+        <member name="M:TrueTarot_API.Controllers.AuthController.Login(TrueTarot_API.DTOs.Auth.LoginRequestDto)">
+            <summary>
+            Kullanıcı girişi
+            </summary>
+        </member>
+        <member name="M:TrueTarot_API.Controllers.AuthController.RefreshToken(TrueTarot_API.DTOs.Auth.RefreshTokenRequestDto)">
+            <summary>
+            Token yenileme
+            </summary>
+        </member>
+        <member name="M:TrueTarot_API.Controllers.AuthController.Logout(TrueTarot_API.DTOs.Auth.RefreshTokenRequestDto)">
+            <summary>
+            Çıkış işlemi
+            </summary>
+        </member>
+        <member name="M:TrueTarot_API.Controllers.AuthController.GetCurrentUser">
+            <summary>
+            Kullanıcı bilgileri
+            </summary>
+        </member>
+        <member name="M:TrueTarot_API.Controllers.AuthController.UpdateProfile(TrueTarot_API.DTOs.Auth.UpdateProfileDto)">
+            <summary>
+            Kullanıcı profilini güncelle
+            </summary>
+        </member>
+        <member name="M:TrueTarot_API.Controllers.AuthController.ChangePassword(TrueTarot_API.DTOs.Auth.ChangePasswordDto)">
+            <summary>
+            Şifre değiştir
+            </summary>
+        </member>
+        <member name="T:TrueTarot_API.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:TrueTarot_API.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TrueTarot_API.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TrueTarot_API.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
