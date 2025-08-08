@@ -1,0 +1,11 @@
+feat: initialize TrueTarot API with authentication system
+
+- JWT-based authentication with refresh tokens
+- User registration, login, and profile management
+- Entity Framework Core with SQL Server integration
+- Role-based authorization (User/Admin)
+- AutoMapper configuration for DTO mapping
+- Swagger/OpenAPI documentation
+- Clean architecture with repository pattern
+- Rate limiting and CORS configuration
+- .NET 9 with modern C# 13.0 features
